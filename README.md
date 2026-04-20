@@ -29,4 +29,13 @@ En vez de int se usa float para numero decimales. En vez de %i se pone %f. Para 
 Se pone lo siguente-> int x = 10; en el int main, dentro de una funcion. Solo funciona dentro de ella. 
 ### Variable Global
 Se pone defuera del int main y eso lo toma todas las funciones.
-
+## Tipos de datos
+char: de tipo caracter. Ejemplo char a = 'e', y en el printf se pone %c.(0 a 255).
+short: para numeros negativos. (-127 al 127).
+unsigned int(o a 65535).
+long: rango muy extenso.
+float:decimales.
+double:decimales de rango extenso
+Para pedirle al usuario una variable, se pusa el scanf, ejemplo: scanf("%i",&a).
+Cuando se pide un nombre por ejepmplo, se usa char[cantidad de digitos], y no es necesario en el scanf poner el &. Pero lee hasta un espacio.
+gets es para toda una oracion.
