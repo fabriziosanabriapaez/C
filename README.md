@@ -39,3 +39,11 @@ double:decimales de rango extenso
 Para pedirle al usuario una variable, se pusa el scanf, ejemplo: scanf("%i",&a).
 Cuando se pide un nombre por ejepmplo, se usa char[cantidad de digitos], y no es necesario en el scanf poner el &. Pero lee hasta un espacio.
 gets es para toda una oracion.
+# Operador de asignacion
+Se puede realizar un int a; a=10; y despues en el printf("el valor de a es %i",a);.
+Si queres varias variables y son iguales entonces int a,b,c; a=b=c=10;
+Tambien se puede a=10; a=a+10; va a dar a=20. Lo equivalente es +=.
+Se puede realizar en el scanf con dos numeros. Ejemplo: scanf("%i %i",&a,&b). En este caso, se pone primero el primer numero, enter y despues el otro.
+## Math.h
+se utiliza esta libreria para usar: 
+Sqrt(pow(numero,elevado)+pow(otronumero,elvadado));:este es para llevarlo al cuadrado.
